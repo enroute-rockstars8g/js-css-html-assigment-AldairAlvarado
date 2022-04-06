@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tarea 1: Presentación</title>
+    <meta
+    charset="utf-8"
+    name="description"
+    content="Tarea 1-Frontend"
+    </>
+    <link rel="stylesheet" href="index.css"/>
+    </head>
+    
+    <body>
+    <script src="index.js"></script>
+
+    <!-- Navbar -->
+
+    <div class="topnav">
+	<a>This is not just a biography, try calculating factorial and fibonacci!</a>
+	
+    <input type="text" placeholder="¿Que posición deseas saber?" id="inputFibo">
+    <button onclick="fibo()">Fibonacci</button>
+    
+    
+    <input type="text" placeholder="Número a calcular su factorial" id="inputFacto">
+    <button onclick="factorial()">Factorial</button>
+	</div>
+
+    <!-- Fin de la NavBar-->
+
+    <h2 class="heady"><center>Hello there! Welcome to my page.</h2></center>
+    <div class="boxing">
+    
+        <div>
+        <img class="profilePic" src="fotoEjemplo.png"> <!-- imagen-->
+        </div>
+
+        <div class="column">About me:       <!--about-->
+        <br>My name is Aldair Alvarado
+        <br>My friends call me Alda.
+        <br>I'm 24 years old.
+        <br>Proudly born in Monterrey.
+        <br>Graduated from Software Engineering career back in 2019.
+        <br>Worked in Alestra for three years in QA (not a programming QA, btw).
+        <br>I think it was time to get out from my comfort zone and catch up again with my career.
+        <br>Excited to keep learning and be a part of the Enroute team.
+        <br>Hobbies: Watch TV shows, movies, and anime. Videogames. Football.
+        </div>
+
+        <h4 class="heady"><center>Results of your search</h4></center>
+        <div class="resultados">     <!-- resultado de la funcion-->
+        <a>El número de la serie de fibonacci que está en la posición que indicaste es: </a>
+        <a> Serie hasta el número que indicaste: </a><div id="fiboContainer"></div>
+        <br>
+        <a>El factorial del número indicado es: </a>
+        <a>Revisar resultado en la consola, por favor :) </a>
+        <div id="factsContainer"></div>
+        </div>
+
+    
+    </div>
+  </body>
+</html>
